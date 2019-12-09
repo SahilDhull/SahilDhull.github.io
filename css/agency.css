@@ -662,6 +662,7 @@ section#contact :-ms-input-placeholder {
 
 footer {
   padding: 25px 0;
+  /*background-color: #f00;*/
   text-align: center;
 }
 
