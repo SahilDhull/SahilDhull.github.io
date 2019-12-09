@@ -312,6 +312,9 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.newdiv {
+  width: 150px;
+}
 .portfolio-modal {
   padding-right: 0px !important;
 }
