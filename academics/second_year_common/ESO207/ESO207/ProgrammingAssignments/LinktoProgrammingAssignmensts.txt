@@ -1,9 +1,0 @@
-PA1:http://www.spoj.com/problems/IITKESO207A_1P_1/
-
-PA2:http://www.spoj.com/problems/IITKESO207A_2P/
-
-PA3:http://www.spoj.com/problems/IITKESO207A_3P_1/
-
-PA4:http://www.spoj.com/problems/IITKESO207A_4P_1/
-
-
