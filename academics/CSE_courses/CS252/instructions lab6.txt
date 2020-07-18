@@ -1,0 +1,32 @@
+Installing MongodB with php:
+
+sudo apt install mongodb-org
+sudo apt install php7.0-dev
+pecl channel-update pecl.php.net
+sudo apt-get install php-xml php7.0-xml
+sudo pecl install mongodb
+manually add "extension=mongodb.so" to php.ini in the files:
+/etc/php/7.0/apache2/php.ini
+/etc/php/7.0/cli/php.ini
+
+cd /var/www/html
+sudo -sH
+composer require mongodb/mongodb
+exit
+
+sudo systemctl enable mongod.service
+pgrep mongod //to check if running
+
+starting apache server
+sudo service apache2 start
+
+restarting
+sudo service apache2 restart
+
+Using Mongo:
+mongo
+>show dbs;
+>use <db-name>
+>db.<collection-name>.find()			//clustered
+>db.<collection-name>.find().pretty();		//better
+

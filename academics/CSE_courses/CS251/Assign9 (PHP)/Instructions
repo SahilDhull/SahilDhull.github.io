@@ -1,0 +1,5 @@
+ssh sahild@turing.cse.iitk.ac.in
+cd ../../..
+cd /homepages/global/sahild/
+vim index.html
+//Edit the html file

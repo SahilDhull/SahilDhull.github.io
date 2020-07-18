@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<title>Sahil Dhull - CSE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="image.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Sahil Dhull</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Student</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Kurukshetra(Haryana), India</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="mailto:#">sahild@cse.iitk.ac.in</a></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>Contact: Hall-3, IIT Kanpur</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="resume.pdf" >Resume</a> </p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>ANSYS</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          </div>
+          <p>Solidworks</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">
+              <div class="w3-center w3-text-white">60%</div>
+            </div>
+          </div>
+          <p>MATLAB</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:25%">25%</div>
+          </div>
+          <hr>
+          
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Coursework</b></p>
+          	<p>Data Structures and Algorithm*<br/>
+			Probability and Statistics*<br/>
+			Computing in C<br/>
+			Computer Organization*<br/>
+			Computing Laboratory-I*<br/>
+			Logic in Computer Science<br/>
+			Discrete Mathematics<br/>
+			Abstract Algebra<br/>
+			Introduction to Electronics<br/>
+			Introduction to Logic<br/>
+			Calculus<br/>
+			Linear Algebra and ODE<br/>
+			 * : ongoing</p>
+          <hr>
+          
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">
+              <div class="w3-center w3-text-white">100%</div>
+            </div>
+          </div>
+          <p>C/C++</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
+              <div class="w3-center w3-text-white">70%</div>
+            </div>
+          </div>
+          <p>Python, Latex</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">
+              <div class="w3-center w3-text-white">50%</div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey "><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>About Myself</h2>
+        	<p>
+        	I am Sophomore in Department of Computer Science and Engineering at IIT Kanpur.<br/>
+        	My interest lies in the field of Computer Science, Automotives and Robotics.
+        	</p>
+      </div>
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>SAE IIT Kanpur</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - Feb 2018</h6>
+          <p>Secured 15th position among 71 teams at Formula Bharat 2018<br/>
+			Designing and fabricating a Formula race car(F-18) for the competition-Formula Bharat, a national collegiate design challenge<br/>
+			Part of Powertrain Subsystem (Engine + Drivetrain)<br/>
+			Designed the sprocket for F-18 vehicle on Solidworks<br/>
+			Simulated and optimized the sprocket design on ANSYS for weight minimization</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>FORMULA ONE CAR | TA201A</b></h5>
+          <h6 class="w3-text-teal">Under Prof. Shobhit Omar</h6>
+          <p>Developed a mechanical model of Formula One Car using manufacturing processes like brazing, welding, sheet metal forming and casting<br/>
+			 Fabricated Wheels through casting, chassis through welding of steelrods and wings using sheet metal forming.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>CUP COUNTER | TA202A</b></h5>
+          <h6 class="w3-text-teal">Under Prof. J. Ramkumar</h6>
+          <p>Developing a mechanical model of machine forreceiving cups and counting them automatically (Ongoing). </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>IIT Kanpur</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016-2020 (Expected)</h6>
+          <p>B. Tech in Computer Science and Engineering</p>
+          <hr>
+          <h5 class="w3-opacity"><b>FIITJEE Punjabi Bagh</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014-2016</h6>
+          <p>IITJEE Preparation</p>
+          <hr>
+          <h5 class="w3-opacity"><b>Abhinav Public School, New Delhi</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014-2016</h6>
+          <p>High School</p><hr>
+          <h5 class="w3-opacity"><b>D.A.V. Public School, Kurukshetra</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Till 2014</h6>
+          <p>Schooling</p><br>
+        </div>
+      </div><br>
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Life@iitk</h2>
+        <div class="w3-container">
+          <p>
+          Participated in Microsoft Code.Fun.Do 2017<br/>
+			Secured 3rd position in Robotricks, Takneek’16 (Inter-hall Technical Competition): Built a robot to preform simple tasks like lifting blocks and detecting coloured strips<br/>
+			Took part in Galaxy(Inter-hall Cultural Event)-2017 in Dance
+          </p>
+        </div>
+      </div>
+	
+    <!-- End Right Column -->
+    </div>
+    
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <a href="https://www.facebook.com/sahil.dhull.25">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/sahild25/?hl=en">
+  <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/sahil-dhull-78844313a/">
+  <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p><a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Copyright</a></p>
+</footer>
+
+</body>
+</html>
+

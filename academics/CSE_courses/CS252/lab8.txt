@@ -1,0 +1,27 @@
+Lab 8 Installation:
+install nodejs
+Ionic and cordova: sudo npm install -g ionic cordova
+json: sudo npm install -g json-server
+Install android studio (and install sdk for any android)
+Installing visual studio is optional
+
+Download github repo
+migrate to the directory
+ionic serve --lab
+
+Publishing app:
+ionic cordova platform add android
+ionic cordova build android
+
+If errors occur:
+export ANDROID_HOME="/home/sahil/Android/Sdk"	//install location of android
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+The genereated apk file is present inside platforms/android/app/build/outputs/apk/debug
+
+For any new project, if ionic serve --lab shows error
+delete the node_modules folder and run "npm install"
+
+for running android-studio: (not needed)
+go to /usr/local/android-studio
+bash studio.sh

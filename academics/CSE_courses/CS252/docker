@@ -1,0 +1,36 @@
+Using Docker
+
+Create container:
+docker pull ubuntu
+docker run -it ubuntu
+
+Commit change:
+exit //from docker
+docker commit -m "message" <container-id> image-name
+
+Delete image: docker rmi image-name
+
+Run from existing container:
+docker exec -it <container-id> bash
+
+Run from existing image:
+docker run -it <image-id> //will create a new container
+
+Get images: docker images
+
+Get container: docker ps // and -a for all
+
+Saving docker image as a tar file:
+docker save -o <path for generated tar file> <image name>
+
+Load from tar:
+docker load -i <path to image tar file>
+
+Pushing Docker image:
+docker login -u sahil25dhull
+docker tag <image-name> sahil25dhull/<image-name>
+docker push sahil25dhull/<image-name>
+
+Pulling docker image:
+docker pull sahil25dhull/<image-name>
+

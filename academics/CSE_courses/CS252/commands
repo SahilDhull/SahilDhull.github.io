@@ -1,0 +1,8 @@
+MySQL commands:
+
+show databases;
+use employees;
+show tables;
+describe <table-name>			//describes the columns in table
+select * from <table-name> where <condition>
+

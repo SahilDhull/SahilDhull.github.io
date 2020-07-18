@@ -1,0 +1,25 @@
+Lab 9:
+
+Ionic3leafletdemomaster not working on phone (android-debug.apk)
+Use demo-master (app-debug.apk)
+
+Leaflet:
+http://tphangout.com/ionic-3-leaflet-maps-geolocation-markers/
+
+Leaflet Github:
+https://github.com/rajayogan/ionic3-leafletdemo
+
+Download github repo
+ionic serve --lab --browser firefox
+//allow permissions on firefox
+//in case of error, delete node_modules and run "npm install"
+
+
+Publishing app:
+ionic cordova platform add android
+export ANDROID_HOME="~/Android/Sdk"
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+ionic cordova build android
+
+The generated apk file is present inside platforms/android/app/build/outputs/apk/debug
+

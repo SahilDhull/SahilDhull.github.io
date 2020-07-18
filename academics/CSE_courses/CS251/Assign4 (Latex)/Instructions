@@ -1,0 +1,6 @@
+
+Instructions for latex on terminal
+
+- command:   $pdflatex filename.tex
+
+- Use pdflatex twice to build correct cross references.

@@ -1,0 +1,8 @@
+Lab 7 instructions
+
+navigate to the folder
+npm install
+npm install -g nodeman
+npm start
+
+open localhost:3000 on browser
